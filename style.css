@@ -85,16 +85,20 @@ section p {
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
   box-shadow: 0 3px 10px rgba(199, 144, 34, 0.763);
+  visibility: hidden;
+  opacity: 0;
 }
 
 /* Right Side */
 #timeline ul li:nth-child(odd) div {
   left: 40px;
+  transform: translate(200px, 0);
 }
 
 /* Left Side */
 #timeline ul li:nth-child(even) div {
   left: -634px;
+  transform: translate(-200px, 0);
 }
 
 /* Dots */
@@ -133,6 +137,14 @@ section p {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent var(--dark-accent);
+}
+
+/* Show Boxes */
+#timeline ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+
 }
 
 #timeline ul li div h3 {
