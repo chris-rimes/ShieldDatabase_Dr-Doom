@@ -18,7 +18,7 @@
 
 body, html {
   font: normal 1rem/1.5 'Orbitron', sans-serif;
-  background: var(--light-accent);
+  background: var(--light-shade);
   color:#fff;
   overflow-x: hidden;
   padding-bottom: 50px;
@@ -84,7 +84,7 @@ section p {
   background: var(--dark-accent);
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
-  box-shadow: 0 3px 10px rgba(199, 144, 34, 0.616);
+  box-shadow: 0 3px 10px rgba(199, 144, 34, 0.763);
 }
 
 /* Right Side */
