@@ -109,7 +109,7 @@ section p {
   bottom: 0;
   width: 25px;
   height: 25px;
-  background: var(--dark-accent);
+  background: inherit;
   transform: translateX(-50%);
   border-radius: 50%;
   transition: background  0.5s ease-in-out;
@@ -145,6 +145,10 @@ section p {
   visibility: visible;
   opacity: 1;
 
+}
+
+#timeline ul li.show:after {
+ background:var(--dark-accent);
 }
 
 #timeline ul li div h3 {
